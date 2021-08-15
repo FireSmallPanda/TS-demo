@@ -1,0 +1,15 @@
+{
+  "name": "tsDemo",
+  "version": "1.0.0",
+  "description": "this is ts demo",
+  "main": "index.js",
+  "author": "lingweihao",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.172"
+  }
+}
