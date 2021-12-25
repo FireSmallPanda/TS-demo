@@ -16,7 +16,8 @@ class Dog extends Animal{
 
 }
 
-
+let dog = new Dog();
+dog.eat(); // 可以吃
 
 
 
