@@ -39,6 +39,8 @@ let logDemo = new Demo();
 logDemo.log();
 logDemo.log(1,'2');
 
+
+
 logDemo.log(1,'2','3');
 
 // 在一个类中，同名的方法如果有不同的参数列表（参数类型不同、参数个数不同甚至是参数顺序不同）则视为重载。

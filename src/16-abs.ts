@@ -17,8 +17,7 @@ class Dog extends Animal{
 }
 
 let dog = new Dog();
-dog.eat(); // 可以吃
-
+dog.eat(); // 直接调用抽象类的方法 可以吃
 
 
 

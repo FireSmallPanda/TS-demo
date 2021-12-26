@@ -14,8 +14,6 @@ const numas = res as number
 
 
 const numasSum:number = numas * numas
-
-
 // 尖括号方式实现
 const numjian:number = <number>res 
 
