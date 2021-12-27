@@ -30,5 +30,5 @@ function crateList<T>(length:number,value:T):T[]{
     return arr
 }
 
-const arrString = crateList<string>(3,'xx');
-const arrNumber = crateList<number>(3,15);
+const arrString = crateList<string>(3,'xx'); // ['xx','xx','xx']
+const arrNumber = crateList<number>(3,15); // [15,15,15]
