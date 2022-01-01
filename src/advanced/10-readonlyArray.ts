@@ -13,4 +13,12 @@ const arr2 : ReadonlyArray<string> = ['木兰','盾山','凯','百里守约']
 arr2[3] = '百里玄策' // 报错 类型“readonly string[]”中的索引签名仅允许读取。
 
 
-const arrObj = [{x:'1'},{y:2}] as const
+
+const arrObj = [{x:1},{y:2}] as const
+
+arrObj[0].x = 18
+
+
+const arrObj2: ReadonlyArray<Record<string,number>> = [{x:1},{y:2}]
+
+arrObj2[0].x = 18 // 可以
